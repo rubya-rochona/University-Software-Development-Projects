@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">QuizApp_by_Rubya</string>
+    <string name="button_text">CLICK</string>
+    <string name="question">What is the capital of Bangladesh?</string>
+    <string name="option01">Rajshahi</string>
+    <string name="option02">Dhaka</string>
+    <string name="option03">Sylhet</string>
+</resources>
