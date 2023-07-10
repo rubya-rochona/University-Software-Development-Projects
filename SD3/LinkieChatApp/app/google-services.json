@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "1092337796281",
+    "firebase_url": "https://linkiechatapp-default-rtdb.firebaseio.com",
+    "project_id": "linkiechatapp",
+    "storage_bucket": "linkiechatapp.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1092337796281:android:b88ca663a2ca7fbc2c8768",
+        "android_client_info": {
+          "package_name": "com.example.linkiechatapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1092337796281-li5km5lpeb4ln7fiogjpejqem473qve8.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCEXqiQBXSDtSB1tkRk7YQfhuiWVMT3cPM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1092337796281-li5km5lpeb4ln7fiogjpejqem473qve8.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
