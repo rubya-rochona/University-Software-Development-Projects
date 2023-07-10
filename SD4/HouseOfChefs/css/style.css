@@ -1,0 +1,259 @@
+/* 
+Author: Rubya Nawar Rochona & Farliha Binte Faisal
+Theme: House of Chefs is a Food Ordering Website
+
+*/
+
+/*  CSS for all starts  */
+
+* {
+    margin: 0 0;
+    padding: 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    /* space outside the border */
+    padding: 1%;
+    /* space inside the border */
+
+}
+
+.img-responsive {
+    /* To make any image 100% */
+    width: 100%
+}
+
+.img-curve {
+    /* To make image in the boxes curved */
+    border-radius: 15px;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.text-center {
+    text-align: center;
+    /* search bar center */
+}
+
+.text-white {
+    /* Tiltle color in the category boxes */
+    color: white;
+}
+
+.clearfix {
+    /*  logo goes to search section */
+    clear: both;
+    float: none;
+}
+
+a {
+
+    color: orange;
+    /* color of all fonts of anchor tag */
+    text-decoration: none;
+    /* remove underline of anchor tags */
+}
+
+a:hover {
+    color: red;
+    /* color when we put cursor on the menu */
+}
+
+.btn {
+    /* Search Button */
+    padding: 1%;
+    border: none;
+    font-size: 1rem;
+    border-radius: 5px;
+}
+
+.btn-primary {
+    /* For the Search button*/
+    background-color: orange;
+    color: white;
+    cursor: pointer;
+}
+
+.btn-primary:hover {
+    color: white;
+    background-color: red;
+    /* Color chabge on click on search button */
+}
+
+h2 {
+    /* For headlines */
+    color: #2f3542;
+    font-size: 2rem;
+    margin-bottom: 2%;
+}
+
+h3 {
+    /* For tile on the category boxes */
+    font-size: 1.5rem;
+}
+
+.float-container {
+    /* Float text above image */
+    position: relative;
+}
+
+.float-text {
+    /* Title of the boxes */
+    position: absolute;
+    bottom: 35px;
+    left: 40%;
+}
+
+fieldset{
+    border: 1px solid white;
+    margin: 5%;
+    padding: 3%;
+    border-radius: 5px;
+}
+
+/*  CSS for all ends  */
+
+/*  CSS for navbar starts */
+.logo {
+    width: 8%;
+    float: left;
+}
+
+.menu {
+    /* to maintain line with the logo */
+    line-height: 100px;
+}
+
+.menu ul {
+    /* menu move right corner */
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    /* display menu horizontally */
+    padding: 1%;
+    /* space between menu */
+    font-weight: bold;
+    /* bold menu */
+}
+
+/*
+.menu ul li a{
+    color: black;
+}
+*/
+
+/*  CSS for navbar ends*/
+
+/*  CSS for Food Search starts*/
+.food-search {
+    background-image: url(../images/banner1.jpg);
+    background-size: cover;
+    /*full size banner */
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 15% 0;
+    /* top-bottom and right-left */
+}
+
+.food-search input[type="search"] {
+    /* for the search bar only */
+    width: 50%;
+    padding: 1%;
+    font-size: 1rem;
+    /* 1rem = 100% */
+    border: none;
+    border-radius: 5px;
+}
+
+/*  CSS for Food Search ends */
+
+/*  CSS for Categories starts */
+.Categories {
+    padding: 4% 0;
+}
+
+.box-3 {
+    /* Boxes inside categories */
+    width: 28%;
+    float: left;
+    /* To set the boxes in a line */
+    margin: 2%;
+}
+
+/*  CSS for Categories ends */
+
+/*  CSS for Food Menu starts */
+.food-menu {
+    background-color: #ececec;
+    padding: 4% 0;
+}
+
+.food-menu-box {
+    width: 43%;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.food-menu-img {
+    width: 25%;
+    float: left;
+}
+
+.food-menu-desc {
+    width: 70%;
+    float: left;
+    margin-left: 5%;
+}
+
+.food-price {
+    font-size: 1.2rem;
+    margin: 2% 0;
+}
+
+.food-detail {
+    /* food description */
+    font-size: 0.8rem;
+    color: gray;
+}
+
+/*  CSS for Food Menu ends */
+
+/*  CSS for Social Medias starts */
+.social ul {
+    list-style-type: none;
+}
+
+.social ul li {
+    display: inline;
+    padding: 1%;
+}
+
+/*  CSS for Social Medias ends */
+
+/* for Order Section */
+.order{
+    width: 50%;
+    margin: 0 auto;
+}
+.input-responsive{
+    width: 96%;
+    padding: 1%;
+    margin-bottom: 3%;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+}
+.order-label{
+    margin-bottom: 1%; 
+    font-weight: bold;
+}

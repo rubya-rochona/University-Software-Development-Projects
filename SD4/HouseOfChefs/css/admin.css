@@ -1,0 +1,149 @@
+/*
+    Author: Rubya Rochona
+    Theme: House Of Chefs - A food ordering website
+*/
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.wrapper {
+    padding: 1%;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.clearfix {
+    float: none;
+    clear: both;
+}
+
+.tbl-full {
+    width: 100%;
+}
+
+.tbl-30 {
+    width: 30%;
+}
+
+table tr th{
+    border-bottom: 1px solid black;
+    padding: 1%;
+    text-align: left;
+}
+table tr td{
+    padding: 1%;
+}
+
+/* Add Admin btn */
+.btn-primary{
+    background-color: green;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary:hover{
+    background-color: #26580f;
+}
+
+/* Update Admin btn */
+.btn-secondary{
+    background-color: grey;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-secondary:hover{
+    background-color: black;
+}
+
+/* Delete Admin btn */
+.btn-danger{
+    background-color: #FF7F50;
+    padding: 1%;
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-danger:hover{
+    background-color: #FF4500;
+}
+
+/* admin add delete confirmation */
+.success{
+    color: #26580f;
+}
+.error{
+    color: red;
+}
+
+/* CSS for Menu starts here*/
+.menu {
+    border-bottom: 1px solid grey;
+}
+
+.menu ul {
+    list-style-type: none;
+}
+
+.menu ul li {
+    display: inline;
+    padding: 1%;
+}
+
+.menu ul li a {
+    /*text underline node*/
+    text-decoration: none;
+    font-weight: bold;
+    color: orange;
+}
+
+.menu ul li a:hover {
+    color: red;
+}
+
+/* CSS for Menu ends here*/
+
+/*CSS for Main Content starts here*/
+.main-content {
+    background-color: #f1f2f6;
+    padding: 3% 0;
+}
+
+.col-4 {
+    width: 18%;
+    background-color: white;
+    margin: 1%;
+    padding: 2%;
+    float: left;
+}
+
+/*CSS for Main Content ends here*/
+
+
+/*CSS for footer starts here*/
+.footer {
+    background-color: orange;
+    color: white;
+}
+/*CSS for footer ends here*/
+
+/*CSS for login starts here*/
+.login{
+    border: 1px solid grey;
+    width: 20%;
+    margin: 10% auto;
+    padding: 2%;
+}
+/*CSS for login ends here*/
